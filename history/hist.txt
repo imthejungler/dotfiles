@@ -1,0 +1,421 @@
+    1  sudo apt install i3
+    2  exit
+    3  cd /home
+    4  ll
+    5  cd jing
+    6  ll
+    7  cd ..
+    8  cd -
+    9  ll
+   10  ls -la
+   11  mkdir Projects
+   12  cd Projects
+   13  mkdir dotfiles
+   14  ll
+   15  cd dotfiles
+   16  ll
+   17  mkdir code
+   18  ll
+   19  cd code
+   20  ll
+   21  git clone https://github.com/imthejungler/dotfiles
+   22  ls
+   23  cd dotfiles
+   24  ll
+   25  nano .zshrc
+   26  source .zshrc
+   27  sudo apt install fzf 
+   28  source .zshrc
+   29  sudo apt install autorandr 
+   30  autorandr
+   31  sudo apt install lxappearance
+   32  sudo apt install rofi
+   33  cp Projects/dotfiles/code/dotfiles/i3/config .config/i3/config
+   34  nano ~/.config/i3/config
+   35  sudo apt install feh
+   36  fg
+   37  cp Projects/dotfiles/code/dotfiles/i3/wallpaper.png .config/i3/wallpaper.png
+   38  sudo apt install feh
+   39  nano ~/.config/i3/config
+   40  sudo apt install arandr
+   41  sudo apt remove autorandr
+   42  sudo apt autoremove
+   43  less ./Downloads
+   44  ll
+   45  less ./Downloads/foo.sh
+   46  fg
+   47  mkdir .config/rofi
+   48  cp Projects/dotfiles/code/dotfiles/rofi/config.rasi .config/rofi
+   49  ll .config/rofi/config.rasi
+   50  exit
+   51  sudo apt install numix-icon-theme numix-icon-theme
+   52  mkdir .fonts
+   53  sudo apt install numix-icon-theme numix-icon-theme-circle
+   54  sudo apt install locate
+   55  sudo updatedb
+   56  locate xorg
+   57  locate 10-nvidia
+   58  cd /usr/share/X11/xorg.conf.d
+   59  ll
+   60  sudo rm 10-amdgpu.conf 10-radeon.conf
+   61  ll
+   62  less 10-quirks.conf
+   63  ls
+   64  cd
+   65  ll .config/rofi/config.rasi
+   66  nano ~/.config/i3/config
+   67  man feh
+   68  sudo apt install chromium-browser
+   69  sudo apt install ./Downloads/google-chrome-stable_current_amd64.deb
+   70  cd Downloads
+   71  ll
+   72  cd jetbrains-toolbox-1.18.7455
+   73  ll
+   74  man i3lock
+   75  nano ~/.config/i3/config
+   76  fg
+   77  sudo apt install i3blocks
+   78  cp /etc/i3blocks.conf ~/.config/i3/
+   79  cd .config/i3/ll
+   80  cd .config/i3/
+   81  ll
+   82  nano i3blocks.conf
+   83  nano ~/.config/i3/config
+   84  cd /usr/share/i3blocks
+   85  ll
+   86  disk
+   87  ./disk
+   88  volume
+   89  ./volume
+   90  ./volume 5 pulse
+   91  pwd
+   92  nano ~/.config/i3/config
+   93  nano ~/.config/i3/i3blocks.conf
+   94  nano ~/.config/i3/config
+   95  nano ~/.config/i3/i3blocks.conf
+   96  nano ~/.config/i3/config
+   97  cd /usr/share/i3blocks
+   98  nano battery
+   99  nano ~/.config/i3/config
+  100  acpi -b
+  101  fg
+  102  sudo sbattach battery
+  103  sudo nano battery
+  104  nano ~/.config/i3/config
+  105  acpi -b
+  106  sudo nano battery
+  107  ll
+  108  ./temperature
+  109  nano memory
+  110  nano volume
+  111  nano bandwidth
+  112  ifconfig
+  113  iface
+  114  ip
+  115  ip -s
+  116  ip a
+  117  ip a -s
+  118  exit
+  119  nano ~/.config/i3/config
+  120  sudo apt install ./Downloads/code_1.50.0-1602051089_amd64.deb
+  121  git config --global alias.co checkout
+  122  git config --global alias.br branch
+  123  git config --global alias.ci commit
+  124  git config --global alias.st status
+  125  git config --global alias.unstage 'reset HEAD --'
+  126  git config --global alias.last 'log -1 HEAD'
+  127  localectl list-x11-keymap-layouts
+  128  localectl list-x11-keymap-layouts | grep es
+  129  localectl list-x11-keymap-layouts | grep es*
+  130  man setxkbmap
+  131  nano ~/.config/i3/config
+  132  less /usr/share/X11/xkb/rules/xorg.xml
+  133  less /usr/share/X11/xkb
+  134  cd /usr/share/X11/xkb
+  135  ll
+  136  cd keycodes
+  137  ll
+  138  cd
+  139  cd -
+  140  cd ..
+  141  ll
+  142  cd symbols
+  143  ll
+  144  less latam
+  145  cd /usr/share/i3blocks
+  146  ll
+  147  less keyindicator
+  148  less wifi
+  149  sudo nano key_layout
+  150  ll
+  151  sudo chmod a+x key_layout
+  152  ll
+  153  nano ~/.config/i3/i3blocks.conf
+  154  nano ~/.config/i3/config
+  155  fg
+  156  setxkbmap -query
+  157  man setxkbmap
+  158  setxkbmap -query
+  159  \tLL
+  160  ll
+  161  setxkbmap -print | grep xkb_symbols | awk -F"+" '{print $2}'
+  162  setxkbmap -print | grep xkb_symbols | awk '{print $4}' | awk -F"+" '{print $2}'\n
+  163  setxkbmap -query -v
+  164  ll
+  165  sudo rm key_layout
+  166  ll
+  167  less keyindicator
+  168  sudo nano keyindicator
+  169  fg
+  170  echo $BLOCK_INSTANCE
+  171  echo BLOCK_INSTANCE
+  172  echo $BLOCK_INSTANCE
+  173  nano ~/.config/i3/i3blocks.conf
+  174  exit
+  175  nano ~/.config/i3/config
+  176  bluetoothctl
+  177  sudo apt install blueman
+  178  sudo apt update
+  179  sudo apt dist-upgrade
+  180  sudo apt update
+  181  sudo apt dist-upgrade
+  182  omz update
+  183  nano ~/.config/i3/config
+  184  exit
+  185  bluetoothctl
+  186  blueman
+  187  bluetoothctl
+  188  blueman-manager
+  189  man feh
+  190  bluetoothctl
+  191  exit
+  192  sudo apt update
+  193  sudo apt dist-upgrade
+  194  sudo apt update
+  195  sudo apt dist-upgrade
+  196  sudo apt update
+  197  sudo apt dist-upgrade
+  198  sudo apt update
+  199  sudo apt dist-upgrade
+  200  sudo apt install flameshot
+  201  cd /home
+  202  ll
+  203  ls
+  204  cd jing
+  205  ll
+  206  sudo apt install git
+  207  sudo apt autoremove
+  208  git st
+  209  cd /home
+  210  ll
+  211  cd jing
+  212  ll
+  213  cd Projects
+  214  ll
+  215  cd ..
+  216  cd -
+  217  cd Projects
+  218  ll
+  219  cd dotfiles
+  220  ll
+  221  cd code
+  222  ll
+  223  cd dotfiles
+  224  ll
+  225  cd ..
+  226  mkdir tropicalbp
+  227  cd tropicalbp
+  228  ll
+  229  mkdir code
+  230  cd code
+  231  cd
+  232  cd .ssh
+  233  ll
+  234  nano config
+  235  cd ..
+  236  cd -
+  237  ssh-keygen -t rsa
+  238  ssh-keygen -t rsa -C "imthejungler" -f "imthejungler"
+  239  ll
+  240  rm imthejungler imthejungler.pub
+  241  ll
+  242  ssh-add id_rsa
+  243  _pbcopy < id_rsa.pub
+  244  pbcopy < id_rsa.pub
+  245  cat id_rsa.pub
+  246  cd
+  247  cd Projects/tropicalbp/code
+  248  ll
+  249  git clone git@github.com:Tropical-Building-Physics/tropicalbp-com.git
+  250  git st
+  251  cd tropicalbp-com
+  252  git st
+  253  git br
+  254  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+  255  reset
+  256  nvm list
+  257  nvm help
+  258  nano .zshrc
+  259  ls
+  260  nvm help
+  261  source .zshrc
+  262  nvm help
+  263  nvm install
+  264  nvm install --lts
+  265  npm install -g yarn
+  266  yarn --version
+  267  yarn set version berry
+  268  yarn install
+  269  npm install -g gats
+  270  npm install -g gatsby-cli
+  271  gatsby develop
+  272  yarn install
+  273  gastby develop
+  274  npm install -g gatsby-cli
+  275  gatsby --help
+  276  gastby develop
+  277  gatsby develop
+  278  npm install
+  279  npm audit fix
+  280  gatsby develop
+  281  cd Projects
+  282  l
+  283  ll
+  284  cd tropicalbp-com
+  285  ll
+  286  cd ..
+  287  rm -rf tropicalbp-com
+  288  git st
+  289  ls
+  290  cd Projects/tropicalbp/code
+  291  ll
+  292  git clone git@github.com:Tropical-Building-Physics/tropicalbp-com.git
+  293  gatsby help
+  294  gatsby --help
+  295  cd tropicalbp-com
+  296  ll
+  297  yarn install
+  298  l
+  299  gatsbydevelop
+  300  gatsby develop
+  301  git checkout -b "CU-3n3pnn/Julio-Indriago/Agregar-seccin-de-metodologa"
+  302  git st
+  303  gatsby develop
+  304  gatsby --help
+  305  gatsby clean
+  306  gastby develop
+  307  gatsby develop
+  308  yarn --help
+  309  yarn remove gatsby-plugin-prefetch-google-fonts
+  310  yarn add gatsby-plugin-preload-fonts
+  311  gatsby develop
+  312  yarn help
+  313  yarn lock
+  314  yarn install
+  315  gatsby develop
+  316  yarn add gatsby-plugin-google-fonts
+  317  gatsby develop
+  318  npx browserslist@latest --update-db
+  319  gatsby develop
+  320  sudo apt update
+  321  sudo apt dist-upgrade
+  322  sudo apt update
+  323  sudo apt dist-upgrade
+  324  sudo apt update
+  325  apt update
+  326  sudo apt update
+  327  sudo apt dist-upgrade
+  328  exit
+  329  gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true 
+  330  cd /etc/X11/
+  331  ll
+  332  locate xord.conf.d
+  333  sudo mkdir -p /etc/X11/xorg.conf.d && sudo tee <<'EOF' /etc/X11/xorg.conf.d/90-touchpad.conf 1> /dev/null\nSection "InputClass"\n        Identifier "touchpad"\n        MatchIsTouchpad "on"\n        Driver "libinput"\n        Option "Tapping" "on"\nEndSection\n\nEOF
+  334  gastby develop
+  335  gatsby develop
+  336  sudo apt update
+  337  sudo apt dist-upgrade
+  338  exit
+  339  ll
+  340  cd Documents/
+  341  ll
+  342  cd ..
+  343  cd Projects
+  344  ll
+  345  pwd
+  346  cd ..
+  347  mkdir Learning
+  348  cd Learning
+  349  mkdir DataEngineering
+  350  cd DataEngineering
+  351  ls
+  352  mkdir Courses
+  353  cd Courses
+  354  mkdir DE-Nanodegree
+  355  cd DE-Nanodegree
+  356  cd ..
+  357  move DE-Nanodegree Udacity-Nanodegree
+  358  mv DE-Nanodegree Udacity-Nanodegree
+  359  cd Udacity-Nanodegree
+  360  mkdir Projects
+  361  cd Projects
+  362  pwd
+  363  mkdir DataModelingPostgres
+  364  cd DataModelingPostgres
+  365  mkdir code
+  366  cd code
+  367  pwd
+  368  cd ..
+  369  rm -rf code
+  370  ll
+  371  sudo apt-get remove docker docker-engine docker.io containerd runc
+  372  sudo apt update
+  373  sudo apt install apt-transport-https ca-certificates curl gnupg lsb-release
+  374  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  375  echo \\n  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\n  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  376  sudo apt update
+  377  sudo apt install docker-ce docker-ce-cli containerd.io
+  378  sudo docker run hello-world
+  379  docker ps
+  380  nano /usr/share/X11/xorg.conf.d/20-intel.conf
+  381  sudo nano /usr/share/X11/xorg.conf.d/20-intel.conf
+  382  sudo rmusr/share/X11/xorg.conf.d/20-intel.conf
+  383  sudo rm /usr/share/X11/xorg.conf.d/20-intel.conf
+  384  sudo apt update
+  385  sudo apt dist-upgrade
+  386  sudo apt update
+  387  sudo apt dist-upgrade
+  388  sudo apt update
+  389  sudo apt dist-upgrade
+  390  sudo apt update
+  391  sudo apt dist-upgrade
+  392  exit
+  393  sudo apt update
+  394  sudo apt dist-upgrade
+  395  sudo apt update
+  396  sudo apt dist-upgrade
+  397  sudo apt autoremove
+  398  sudo apt update
+  399  sudo apt dist-upgrade
+  400  sudo snap install discord
+  401  exit
+  402  ll
+  403  cd ..
+  404  ll
+  405  cd jing
+  406  cd Projects
+  407  ll
+  408  cd ..
+  409  ls -ls
+  410  ll
+  411  ls -la
+  412  history
+  413  cd Projects
+  414  cd dotfiles
+  415  ll
+  416  cd code
+  417  ll
+  418  cd dotfiles
+  419  ll
+  420  mkdir history
+  421  cd history
